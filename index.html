@@ -11,67 +11,18 @@
 
     <!-- Your custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="js/main.js"> -->
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark "style="background-color: #093F4A;">
-            <div class="container">
-              <div class="container-fluid">
-                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html#skills">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html#resume">Education & Experience</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html#portfolio">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html#contact">Contact</a>
-                        </li>
-                        <!-- <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li> -->
-                    </ul>
-                    <form class="d-flex">
-                        <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
-                        <button class="btn btn-outline-info text-light" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-            </div>
-        </nav>
+    <header id="header">
+        
     </header>
+    
 
     <div class="container" >
-        
-    
         <main>
 
             <!-- <section class="row d-flex justify-content-center align-items-center mt-5 section-padding" style="height: 400px;background-image: url('https://sciencebusiness.net/sites/default/files/styles/article/public/2021-07/ai_1050x450_0.jpg?itok=R4i1DdrR');background-size: cover;opacity: 1;">
@@ -103,11 +54,9 @@
                       As a software engineer with experience in both Laravel and Django frameworks, I am passionate about building scalable and efficient web applications. My journey includes working with two companies using Laravel and recently transitioning to Django due to my interest in machine learning and artificial intelligence.
                   </p>
                   <!-- <button class="btn btn-info mb-2">Download CV</button> -->
-                  <a href=""> <button class="btn btn-outline-info text-light" type="submit">Download CV</button></a>
+                  <a href="index.html#contact"> <button class="btn btn-outline-info text-light" type="submit">Contact me</button></a>
               </div>
-          </section>
-          
-
+            </section>
           
 
             <section id="about" class="about section section-padding">
@@ -163,7 +112,7 @@
               <!-- Section Title -->
               <div class="container section-title aos-init aos-animate" data-aos="fade-up">
                 <h2>Skills</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                <p>My expertise extends to frontend technologies such as HTML, CSS, Bootstrap, and JavaScript, which enables me to build cohesive and responsive applications. I have experience in creating robust APIs, managing authentication, and integrating payment solutions, such as SSLCommerz.</p>
               </div><!-- End Section Title -->
         
               <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
@@ -370,14 +319,14 @@
               </div><!-- End Section Title -->
         
               <div class="container">
-                <div class="row">
+                <div class="row  mt-5">
                   <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" style="/* position: absolute; */left: 0px;top: 0px;">
-                    <div class="item-img">
+                    <!-- <div class="item-img">
                       <div class="item-img-info">
                           <a href="project_details.html" title="" class="project-image">
                               <img src="images/projects/lifelink.png" alt="SA-M-0001">
                               <div class="project-description">
-                                <!-- <p>Blood Donation System (LifeLink)</p> -->
+                                <p>Blood Donation System (LifeLink)</p>
                                 <h5>Blood Donation System (LifeLink)</h5>
                                 <div class="link-container">
                                     <a href="project_details.html" title="Details"><i class="bi bi-journal-text icon"></i> </a>
@@ -387,15 +336,40 @@
                             
                           </a>
                       </div>
-                  </div>
+                    </div> -->
+
+                    <div class="card custom-card">
+                      <!-- <img src="..." class="card-img-top" alt="..."> -->
+                      <div class="item-img">
+                        <div class="item-img-info">
+                            <a href="project_details.html" title="" class="project-image">
+                                <img src="images/projects/lifelink.png" style="border-radius: 5px;padding: 1px;" alt="SA-M-0001">
+                                <div class="project-description">
+                                  <!-- <p>Blood Donation System (LifeLink)</p> -->
+                                  <h5>Blood Donation System (LifeLink)</h5>
+                                  <div class="link-container">
+                                      <a href="project_details.html" title="Details"><i class="bi bi-journal-text icon"></i> </a>
+                                      <a href="https://fabulous-trifle-8657b5.netlify.app" target="_blank" title="link"><i class="bi bi-search-heart-fill icon"></i></a>
+                                  </div>
+                              </div>
+                              
+                            </a>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">LifeLink</h5>
+                        <p class="card-text" style="text-align: justify;">This is blood donation website.  If anyone is suitable for donating blood then he can register here and donate blood to patient who requested for blood..... </p>
+                        <a href="project_details.html" class="btn btn-outline-info text-light">Know More</a>
+                      </div>
+                    </div>
                   </div><!-- End Portfolio Item -->
-                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" style="/* position: absolute; */left: 0px;top: 0px;">
-                    <div class="item-img">
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" style="box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;">
+                    <!-- <div class="item-img">
                       <div class="item-img-info">
                           <a href="project_details2.html" title="" class="project-image">
                               <img src="images/projects/project-img2.png" alt="SA-M-0001">
                               <div class="project-description">
-                                <!-- <p>Blood Donation System (LifeLink)</p> -->
+                                <p>Blood Donation System (LifeLink)</p>
                                 <h5>Point of Sales (Swiftpos)</h5>
                                 <div class="link-container">
                                     <a href="project_details2.html" title="Details"><i class="bi bi-journal-text  icon" ></i> </a>
@@ -405,7 +379,32 @@
                             
                           </a>
                       </div>
-                  </div>
+                    </div> -->
+
+                    <div class="card custom-card">
+                      <!-- <img src="..." class="card-img-top" alt="..."> -->
+                      <div class="item-img">
+                        <div class="item-img-info">
+                            <a href="project_details2.html" title="" class="project-image">
+                                <img src="images/projects/swiftpos.png" style="border-radius: 5px;padding: 1px;" alt="SA-M-0001">
+                                <div class="project-description">
+                                  <!-- <p>Blood Donation System (LifeLink)</p> -->
+                                  <h5>Point Of Sale (POS)</h5>
+                                  <div class="link-container">
+                                      <a href="project_details2.html" title="Details"><i class="bi bi-journal-text icon"></i> </a>
+                                      <a href="https://swiftpos.netlify.app" target="_blank" title="link"><i class="bi bi-search-heart-fill icon"></i></a>
+                                  </div>
+                              </div>
+                              
+                            </a>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Swiftpos</h5>
+                        <p class="card-text" style="text-align: justify;">This is a simple POS software where authenticated user can manage products and product stock purchase products sale products...... </p>
+                        <a href="project_details2.html" class="btn btn-outline-info text-light">Know More</a>
+                      </div>
+                    </div>
                   </div><!-- End Portfolio Item -->
 
                 </div>
@@ -467,7 +466,7 @@
                   
                   </div>
         
-                  <div class="col-lg-7" style="background-color: rgba(9, 9, 9, 0.586);padding: 30px;color: black;border: 1px solid #31D2F2;border-radius: 5px;">
+                  <div class="col-lg-7 custom-card" style="padding: 30px;color: black;">
                     <form action="forms/contact.php" method="post" class="php-email-form aos-init" data-aos="fade-up" data-aos-delay="200">
                       <div class="row gy-4 text-light">
                         <h5 class="text-light text-center">Contact Form</h5>
@@ -514,19 +513,6 @@
         </main>
 
         <footer id="footer" class="footer position-relative light-background">
-
-          <div class="container ">
-            <footer class="py-3 my-4 ">
-              <ul class="nav justify-content-center border-bottom pb-3 mb-3 text-info">
-                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary text-light">Home</a></li>
-                <li class="nav-item"><a href="index.html#about" class="nav-link px-2 text-body-secondary text-light">About</a></li>
-                <li class="nav-item"><a href="index.html#skills" class="nav-link px-2 text-body-secondary text-light">Skills</a></li>
-                <li class="nav-item"><a href="index.html#resume#" class="nav-link px-2 text-body-secondary text-light">Education & Experience</a></li>
-                <li class="nav-item"><a href="index.html#portfolio" class="nav-link px-2 text-body-secondary text-light">Projects</a></li>
-              </ul>
-              <!-- <p class="text-center text-body-secondary">© 2024 Company, Inc</p> -->
-            </footer>
-          </div>
       
         </footer>
         
@@ -537,5 +523,6 @@
     <script>
       AOS.init();
     </script>
+    <script src="js/main.js"></script>
 </body>
 </html>
